@@ -1,7 +1,6 @@
 # Log files analyzer
 
-A CLI utility for analyzing log files and producing aggregated metrics  
-(log levels, errors, latency statistics, etc.).
+A CLI utility for analyzing log files and producing aggregated metrics (log levels, errors, latency statistics, etc.).
 
 The tool includes:
 - a test log generator
@@ -29,7 +28,6 @@ python log_generator.py
 
 This will generate a test log file in the `logs/` directory.
 
-
 ## CLI Usage
 
 1. Print summary table
@@ -38,7 +36,7 @@ This will generate a test log file in the `logs/` directory.
 python cli.py --path path/to/logs --output table
 ```
 
-2. Export summary to CSV
+2. Export summary to CSV file
 
 ```bash
 python cli.py --path path/to/logs --output csv
