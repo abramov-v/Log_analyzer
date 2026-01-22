@@ -35,13 +35,13 @@ This will generate a test log file in the `logs/` directory.
 1. Print summary table
 
 ```bash
-python cli.py --path logs --output table
+python cli.py --path "path/to/logs/" --output table
 ```
 
 2. Export summary to CSV
 
 ```bash
-python cli.py --path logs --output csv
+python cli.py --path "path/to/logs/" --output csv
 ```
 
 CSV files are saved to the `results/` directory.
@@ -66,7 +66,7 @@ CSV files are saved to the `results/` directory.
 | Metric         |                                                                Value |
 +----------------+----------------------------------------------------------------------+
 | [File]         |                                                                      |
-|   File path    | D:\Projects\pet_projects_2026\Log_analyzer\log_analyzer\logs\app.log |
+|   File path    |                  ...path/to/logs/                                    |
 | [Levels]       |                                                                      |
 |   ERROR        |                                                             33 (33%) |
 |   WARNING      |                                                             28 (28%) |
