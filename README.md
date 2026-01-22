@@ -47,7 +47,7 @@ CSV files are saved to the `results/` directory.
 
 ## Log format - example
 
-```
+```log
 2026-01-22 22:04:19 WARNING latency_ms=134
 2026-01-22 22:04:19 INFO latency_ms=278 user_id=29 action=search
 2026-01-22 22:04:19 ERROR latency_ms=134 user_id=7 action=logout code=403
