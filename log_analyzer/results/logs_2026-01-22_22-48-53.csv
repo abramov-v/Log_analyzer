@@ -1,2 +1,0 @@
-errors_total,file_path,latency_count,latency_invalid,latency_missing,latency_sum,level_ERROR,level_ERROR_pct,level_INFO,level_INFO_pct,level_WARNING,level_WARNING_pct,max_latency,min_latency,parsed_failed,parsed_ok,total_lines
-16586,D:\Projects\pet_projects_2026\Log_analyzer\log_analyzer\logs\app.log,39924,0,10076,5361912,16586,33,16590,33,16824,34,299,32,0,50000,50000

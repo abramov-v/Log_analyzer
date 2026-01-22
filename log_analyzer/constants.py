@@ -5,7 +5,7 @@ from typing import Final
 OUTPUT_CHOICES: Final = ('table', 'csv')
 
 # LOG GENERATOR SETTINGS
-NUMBER_TEST_LOGS: Final = 50_000
+NUMBER_TEST_LOGS: Final = 100
 DEFAULT_RANDOM_SEED: Final = 42
 LATENCIES_COUNT: Final = 20
 USER_IDS_COUNT: Final = 20
